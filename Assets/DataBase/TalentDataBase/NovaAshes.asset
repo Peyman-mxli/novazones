@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a87d1a3ca0aa141846f6a1a7163ad8, type: 3}
+  m_Name: NovaAshes
+  m_EditorClassIdentifier: Assembly-CSharp::TalentData
+  talentName: 'Nova Ashes '
+  description: 'Available:
+
+    Hero Level 5
+
+    Requires 5 points spent in Tank
+    Talents
+
+
+    Maximum Rank: 25
+
+
+    Skill Type:
+
+    Melee Skill Upgrade
+
+
+    Skill
+    Effect:
+
+    A strong melee Nova attack that consumes 20 Nova.
+
+
+    Nova Cost:
+
+    20
+    Nova
+
+
+    Cooldown:
+
+    3 seconds
+
+
+    Each Rank Bonus:
+
+    +0.5% Hit Rate
+
+    +0.5%
+    Slow Speed
+
+    +0.5 Armor
+
+    +2 Damage
+
+
+    Maximum Rank Bonuses:
+
+    +12.5%
+    Hit Rate
+
+    +12.5% Slow Speed
+
+    +12.5 Armor
+
+    +50 Damage
+
+
+    Enemy
+    Slow:
+
+    Slows enemy walking speed by up to 12.5%.
+
+
+    SYSTEM CAPS
+
+
+    Maximum
+    Hit Rate gained from:
+
+    - Items
+
+    - Bags
+
+    - Hero Level Up
+
+    - Talents
+
+    -
+    Skills
+
+    - Buffs
+
+
+    Hit Rate Cap: 40%
+
+
+    After reaching this Capacity,
+    the Hero will no longer gain additional Hit Rate.
+
+
+    Higher percentages may
+    still appear visually, but no extra Hit Rate will be applied beyond 40%.'
+  currentRank: 0
+  maxRank: 25
+  requiredPointsInTree: 5
+  requiredTalent: {fileID: 0}
+  talentType: 1
+  linkedSkillName: NovaAshes

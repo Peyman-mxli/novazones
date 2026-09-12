@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a87d1a3ca0aa141846f6a1a7163ad8, type: 3}
+  m_Name: NovaBless
+  m_EditorClassIdentifier: Assembly-CSharp::TalentData
+  talentName: Nova Bless
+  description: A strong buff that consumes 40 Nova.
+  currentRank: 0
+  maxRank: 25
+  requiredPointsInTree: 5
+  requiredTalent: {fileID: 0}
+  talentType: 1
+  linkedSkillName: NovaBless

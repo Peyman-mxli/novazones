@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a87d1a3ca0aa141846f6a1a7163ad8, type: 3}
+  m_Name: NovaStrike
+  m_EditorClassIdentifier: Assembly-CSharp::TalentData
+  talentName: 'Nova Strike '
+  description: 'A powerful melee Nova Strike that hits the main target and splashes
+    100% physical damage to up to 5 nearby enemies. This attack can critically strike,
+    applies bonus damage, and taunts all nearby enemies and bosses.
+
+    
+
+    Nova
+    Cost: 20
+
+    Cooldown: 2.5 Seconds
+
+    
+
+    Available:
+
+    Hero Level
+    5
+
+    Requires 5 points spent in Tank Talents.'
+  currentRank: 0
+  maxRank: 25
+  requiredPointsInTree: 5
+  requiredTalent: {fileID: 0}
+  talentType: 1
+  linkedSkillName: 'NovaStrike '
